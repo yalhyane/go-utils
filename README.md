@@ -1,6 +1,6 @@
-# Go-utils: Simplify Your Go Code with Essential Helpers
+# Go-utils
 
-**Go-utils** is a collection of helper functions designed to streamline your Go development experience by providing convenient solutions for common tasks related to:
+**Go-utils** is a collection of helper functions for common tasks related to:
 
 * **Slices:** Handle and manipulate slices more easily with functions like `DeleteValue`, `FilterFunc`, `IndexOf`...
 * **Maps:** Work with maps efficiently using utilities like `MergeMaps`, `GetValues`, `GetKeys`...
