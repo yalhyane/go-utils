@@ -40,7 +40,7 @@ func TestFilterSliceFuncWithIndex(t *testing.T) {
 
 func TestSliceClone(t *testing.T) {
 	s := []int{1, 2, 3, 4, 5}
-	result := Clone(s)
+	result := Copy(s)
 
 	if !reflect.DeepEqual(result, s) {
 		t.Errorf("Expected a clone of %v, but got %v", s, result)

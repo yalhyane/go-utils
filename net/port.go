@@ -2,6 +2,7 @@ package net_utils
 
 import "net"
 
+// GetFreePort resolves a free port on the local machine and returns it, or an error if one occurs.
 func GetFreePort() (int, error) {
 	addr, err := net.ResolveTCPAddr("tcp", "localhost:0")
 	if err != nil {

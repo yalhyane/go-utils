@@ -15,7 +15,7 @@ type Number interface {
 	IntNumber | FloatNumber
 }
 
-// Min returns min of two numbers
+// Min returns the minimum value between the two given numbers
 func Min[T Number](a, b T) T {
 	if a < b {
 		return a
@@ -24,7 +24,7 @@ func Min[T Number](a, b T) T {
 	return b
 }
 
-// Max returns max of two numbers
+// Max returns the greater value between the two given numbers.
 func Max[T Number](a, b T) T {
 	if a > b {
 		return a
@@ -33,7 +33,7 @@ func Max[T Number](a, b T) T {
 	return b
 }
 
-// IntMin returns min of two numbers
+// IntMin returns the minimum value between the two given int numbers
 func IntMin(a, b int) int {
 	if a < b {
 		return a
@@ -42,7 +42,7 @@ func IntMin(a, b int) int {
 	return b
 }
 
-// IntMax returns max of two numbers
+// IntMax returns the greater value between the two given int numbers.
 func IntMax(a, b int) int {
 	if a > b {
 		return a
@@ -51,7 +51,7 @@ func IntMax(a, b int) int {
 	return b
 }
 
-// Int64Min returns min of two numbers
+// Int64Min returns the minimum value between the two given int64 numbers.
 func Int64Min(a, b int64) int64 {
 	if a < b {
 		return a
@@ -60,7 +60,7 @@ func Int64Min(a, b int64) int64 {
 	return b
 }
 
-// Int64Max returns max of two numbers
+// Int64Max returns the greater value between the two given int64 numbers.
 func Int64Max(a, b int64) int64 {
 	if a > b {
 		return a
